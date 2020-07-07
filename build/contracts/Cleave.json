@@ -1,0 +1,170 @@
+{
+  "contractName": "Cleave",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/no/Documents/Projects/Ethventure/solidity/contracts/Spells/Cleave.sol\":\"Cleave\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/no/Documents/Projects/Ethventure/solidity/contracts/Spell.sol\":{\"keccak256\":\"0x1da93fc24dedbf9fbe5ee7f0d4add4ee1a0969680ba117d03dc415ada7b47a4e\",\"urls\":[\"bzz-raw://14ae65d08992001aed57a99ea2b13dda99bc0c0b8ae5873ecdc3c5b63871088d\",\"dweb:/ipfs/QmTHXeAvNRfySdTse3zAoKRSbsCvTJiV5SpPXVt6hXNj7S\"]},\"/home/no/Documents/Projects/Ethventure/solidity/contracts/Spells/Cleave.sol\":{\"keccak256\":\"0x2dbb919299e347d01fe8908e10ed3718b64bdc6085b962e992171c92804cebb7\",\"urls\":[\"bzz-raw://c91dd2c8556ab9f87d1befe14dd3178be7a14ae9616e3c0585fbc417be710e27\",\"dweb:/ipfs/QmT7836orn6PCErniZ35ZhahqEEdCoPhnTGVX2pES12g7X\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a72315820b64d6b0cef0021b66cc57906f6385a990d4be88b7e5ef5f75539faeae0b18f9764736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a72315820b64d6b0cef0021b66cc57906f6385a990d4be88b7e5ef5f75539faeae0b18f9764736f6c63430005100032",
+  "sourceMap": "49:33:9:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;49:33:9;;;;;;;",
+  "deployedSourceMap": "49:33:9:-;;;;;",
+  "source": "pragma solidity ^0.5.0;\n\nimport \"../Spell.sol\";\n\ncontract Cleave is Spell {\n    \n} ",
+  "sourcePath": "/home/no/Documents/Projects/Ethventure/solidity/contracts/Spells/Cleave.sol",
+  "ast": {
+    "absolutePath": "/home/no/Documents/Projects/Ethventure/solidity/contracts/Spells/Cleave.sol",
+    "exportedSymbols": {
+      "Cleave": [
+        209
+      ]
+    },
+    "id": 210,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 205,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:9"
+      },
+      {
+        "absolutePath": "/home/no/Documents/Projects/Ethventure/solidity/contracts/Spell.sol",
+        "file": "../Spell.sol",
+        "id": 206,
+        "nodeType": "ImportDirective",
+        "scope": 210,
+        "sourceUnit": 198,
+        "src": "25:22:9",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 207,
+              "name": "Spell",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 197,
+              "src": "68:5:9",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Spell_$197",
+                "typeString": "contract Spell"
+              }
+            },
+            "id": 208,
+            "nodeType": "InheritanceSpecifier",
+            "src": "68:5:9"
+          }
+        ],
+        "contractDependencies": [
+          197
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 209,
+        "linearizedBaseContracts": [
+          209,
+          197
+        ],
+        "name": "Cleave",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 210,
+        "src": "49:33:9"
+      }
+    ],
+    "src": "0:83:9"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/no/Documents/Projects/Ethventure/solidity/contracts/Spells/Cleave.sol",
+    "exportedSymbols": {
+      "Cleave": [
+        209
+      ]
+    },
+    "id": 210,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 205,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:9"
+      },
+      {
+        "absolutePath": "/home/no/Documents/Projects/Ethventure/solidity/contracts/Spell.sol",
+        "file": "../Spell.sol",
+        "id": 206,
+        "nodeType": "ImportDirective",
+        "scope": 210,
+        "sourceUnit": 198,
+        "src": "25:22:9",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 207,
+              "name": "Spell",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 197,
+              "src": "68:5:9",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Spell_$197",
+                "typeString": "contract Spell"
+              }
+            },
+            "id": 208,
+            "nodeType": "InheritanceSpecifier",
+            "src": "68:5:9"
+          }
+        ],
+        "contractDependencies": [
+          197
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 209,
+        "linearizedBaseContracts": [
+          209,
+          197
+        ],
+        "name": "Cleave",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 210,
+        "src": "49:33:9"
+      }
+    ],
+    "src": "0:83:9"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.2.0",
+  "updatedAt": "2020-07-04T17:56:31.909Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

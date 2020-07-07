@@ -1,0 +1,364 @@
+{
+  "contractName": "Wizard",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getName",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"getName\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/no/Documents/Projects/Ethventure/solidity/contracts/Classes/Wizard.sol\":\"Wizard\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/no/Documents/Projects/Ethventure/solidity/contracts/Class.sol\":{\"keccak256\":\"0x5261ee6e9297a0e6a1cca6fa1f6a388d58d9ab60af9412185e775909f5f847fa\",\"urls\":[\"bzz-raw://28758878454404430a01379f6f54334bbcd2dc8cd60efdc12a9a2a15db9dcc14\",\"dweb:/ipfs/QmX9XDFXNQbbPqc8YqS5eSNC1iduykz6Ad7oCpkm6cdPf4\"]},\"/home/no/Documents/Projects/Ethventure/solidity/contracts/Classes/Wizard.sol\":{\"keccak256\":\"0x6234e419c4cc08738c97dce1480805783b7ce1adc9c0ec42ece54cf7c0afcc12\",\"urls\":[\"bzz-raw://936d1df0bfb5965517cab39849ca6f04864635618216f9d5fa735fd23f4dad56\",\"dweb:/ipfs/QmXVFdikuyVYq3CRv8XerEXqE765eRa6a9pNJQL3AZQSno\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5061011d806100206000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806317d7de7c14602d575b600080fd5b603360ab565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101560715780820151818401526020810190506058565b50505050905090810190601f168015609d5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60606040518060400160405280600681526020017f57697a617264000000000000000000000000000000000000000000000000000081525090509056fea265627a7a723158205765c21ffb78f1a0f84d6a1b536758a960a112874531be9ebe04fd39eb79b23864736f6c63430005100032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c806317d7de7c14602d575b600080fd5b603360ab565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101560715780820151818401526020810190506058565b50505050905090810190601f168015609d5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60606040518060400160405280600681526020017f57697a617264000000000000000000000000000000000000000000000000000081525090509056fea265627a7a723158205765c21ffb78f1a0f84d6a1b536758a960a112874531be9ebe04fd39eb79b23864736f6c63430005100032",
+  "sourceMap": "49:119:4:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;49:119:4;;;;;;;",
+  "deployedSourceMap": "49:119:4:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;49:119:4;;;;;;;;;;;;;;;;;;;80:86;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;80:86:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;119:13;144:15;;;;;;;;;;;;;;;;;;;80:86;:::o",
+  "source": "pragma solidity ^0.5.0;\n\nimport \"../Class.sol\";\n\ncontract Wizard is Class {\n    function getName() public view returns(string memory) {\n        return \"Wizard\";\n    }\n}",
+  "sourcePath": "/home/no/Documents/Projects/Ethventure/solidity/contracts/Classes/Wizard.sol",
+  "ast": {
+    "absolutePath": "/home/no/Documents/Projects/Ethventure/solidity/contracts/Classes/Wizard.sol",
+    "exportedSymbols": {
+      "Wizard": [
+        89
+      ]
+    },
+    "id": 90,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 77,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:4"
+      },
+      {
+        "absolutePath": "/home/no/Documents/Projects/Ethventure/solidity/contracts/Class.sol",
+        "file": "../Class.sol",
+        "id": 78,
+        "nodeType": "ImportDirective",
+        "scope": 90,
+        "sourceUnit": 48,
+        "src": "25:22:4",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 79,
+              "name": "Class",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 47,
+              "src": "68:5:4",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Class_$47",
+                "typeString": "contract Class"
+              }
+            },
+            "id": 80,
+            "nodeType": "InheritanceSpecifier",
+            "src": "68:5:4"
+          }
+        ],
+        "contractDependencies": [
+          47
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 89,
+        "linearizedBaseContracts": [
+          89,
+          47
+        ],
+        "name": "Wizard",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 87,
+              "nodeType": "Block",
+              "src": "134:32:4",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "hexValue": "57697a617264",
+                    "id": 85,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "string",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "151:8:4",
+                    "subdenomination": null,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_stringliteral_757e6d9d3125f5eeded46c70842b9da6b025feca97f4e2f325e9bb90662815a5",
+                      "typeString": "literal_string \"Wizard\""
+                    },
+                    "value": "Wizard"
+                  },
+                  "functionReturnParameters": 84,
+                  "id": 86,
+                  "nodeType": "Return",
+                  "src": "144:15:4"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 88,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getName",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 81,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "96:2:4"
+            },
+            "returnParameters": {
+              "id": 84,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 83,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 88,
+                  "src": "119:13:4",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 82,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "119:6:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "118:15:4"
+            },
+            "scope": 89,
+            "src": "80:86:4",
+            "stateMutability": "view",
+            "superFunction": 46,
+            "visibility": "public"
+          }
+        ],
+        "scope": 90,
+        "src": "49:119:4"
+      }
+    ],
+    "src": "0:168:4"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/no/Documents/Projects/Ethventure/solidity/contracts/Classes/Wizard.sol",
+    "exportedSymbols": {
+      "Wizard": [
+        89
+      ]
+    },
+    "id": 90,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 77,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:4"
+      },
+      {
+        "absolutePath": "/home/no/Documents/Projects/Ethventure/solidity/contracts/Class.sol",
+        "file": "../Class.sol",
+        "id": 78,
+        "nodeType": "ImportDirective",
+        "scope": 90,
+        "sourceUnit": 48,
+        "src": "25:22:4",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 79,
+              "name": "Class",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 47,
+              "src": "68:5:4",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Class_$47",
+                "typeString": "contract Class"
+              }
+            },
+            "id": 80,
+            "nodeType": "InheritanceSpecifier",
+            "src": "68:5:4"
+          }
+        ],
+        "contractDependencies": [
+          47
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 89,
+        "linearizedBaseContracts": [
+          89,
+          47
+        ],
+        "name": "Wizard",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 87,
+              "nodeType": "Block",
+              "src": "134:32:4",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "hexValue": "57697a617264",
+                    "id": 85,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "string",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "151:8:4",
+                    "subdenomination": null,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_stringliteral_757e6d9d3125f5eeded46c70842b9da6b025feca97f4e2f325e9bb90662815a5",
+                      "typeString": "literal_string \"Wizard\""
+                    },
+                    "value": "Wizard"
+                  },
+                  "functionReturnParameters": 84,
+                  "id": 86,
+                  "nodeType": "Return",
+                  "src": "144:15:4"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 88,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getName",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 81,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "96:2:4"
+            },
+            "returnParameters": {
+              "id": 84,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 83,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 88,
+                  "src": "119:13:4",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 82,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "119:6:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "118:15:4"
+            },
+            "scope": 89,
+            "src": "80:86:4",
+            "stateMutability": "view",
+            "superFunction": 46,
+            "visibility": "public"
+          }
+        ],
+        "scope": 90,
+        "src": "49:119:4"
+      }
+    ],
+    "src": "0:168:4"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x25A4E9741Bf936c44e6fCd2F11741150Fb1aFaFC",
+      "transactionHash": "0x162949a09af2a413f530eaa3aa2f6884f17c2918ceb0b660e8e239adf2a09762"
+    }
+  },
+  "schemaVersion": "3.2.0",
+  "updatedAt": "2020-07-04T18:06:00.447Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "contractName": "Spell",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/no/Documents/Projects/Ethventure/solidity/contracts/Spell.sol\":\"Spell\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/no/Documents/Projects/Ethventure/solidity/contracts/Spell.sol\":{\"keccak256\":\"0x1da93fc24dedbf9fbe5ee7f0d4add4ee1a0969680ba117d03dc415ada7b47a4e\",\"urls\":[\"bzz-raw://14ae65d08992001aed57a99ea2b13dda99bc0c0b8ae5873ecdc3c5b63871088d\",\"dweb:/ipfs/QmTHXeAvNRfySdTse3zAoKRSbsCvTJiV5SpPXVt6hXNj7S\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a72315820d3e2c928f43b59f59b29acf8443e4dcb7cab70cc534671a613cf04051b55cd4264736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a72315820d3e2c928f43b59f59b29acf8443e4dcb7cab70cc534671a613cf04051b55cd4264736f6c63430005100032",
+  "sourceMap": "25:23:7:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:23:7;;;;;;;",
+  "deployedSourceMap": "25:23:7:-;;;;;",
+  "source": "pragma solidity ^0.5.0;\n\ncontract Spell {\n    \n} ",
+  "sourcePath": "/home/no/Documents/Projects/Ethventure/solidity/contracts/Spell.sol",
+  "ast": {
+    "absolutePath": "/home/no/Documents/Projects/Ethventure/solidity/contracts/Spell.sol",
+    "exportedSymbols": {
+      "Spell": [
+        197
+      ]
+    },
+    "id": 198,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 196,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:7"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 197,
+        "linearizedBaseContracts": [
+          197
+        ],
+        "name": "Spell",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 198,
+        "src": "25:23:7"
+      }
+    ],
+    "src": "0:49:7"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/no/Documents/Projects/Ethventure/solidity/contracts/Spell.sol",
+    "exportedSymbols": {
+      "Spell": [
+        197
+      ]
+    },
+    "id": 198,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 196,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:7"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 197,
+        "linearizedBaseContracts": [
+          197
+        ],
+        "name": "Spell",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 198,
+        "src": "25:23:7"
+      }
+    ],
+    "src": "0:49:7"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.2.0",
+  "updatedAt": "2020-07-04T17:56:31.908Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

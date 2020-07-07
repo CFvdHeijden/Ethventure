@@ -1,0 +1,364 @@
+{
+  "contractName": "Warrior",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getName",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"getName\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/no/Documents/Projects/Ethventure/solidity/contracts/Classes/Warrior.sol\":\"Warrior\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/no/Documents/Projects/Ethventure/solidity/contracts/Class.sol\":{\"keccak256\":\"0x5261ee6e9297a0e6a1cca6fa1f6a388d58d9ab60af9412185e775909f5f847fa\",\"urls\":[\"bzz-raw://28758878454404430a01379f6f54334bbcd2dc8cd60efdc12a9a2a15db9dcc14\",\"dweb:/ipfs/QmX9XDFXNQbbPqc8YqS5eSNC1iduykz6Ad7oCpkm6cdPf4\"]},\"/home/no/Documents/Projects/Ethventure/solidity/contracts/Classes/Warrior.sol\":{\"keccak256\":\"0x2ecc7b4a70c00fc64d7bd83ed3337768bd712fb500258d09d9172e90d6fc6dd0\",\"urls\":[\"bzz-raw://be579e0f41eae5e068fc631f4a386058a3e5f3dc4c940a641af73cbdd8924d9e\",\"dweb:/ipfs/QmYVz7bYqziLjsHzb5wAJgae6CesFp7rxfADDj1qRQBCJM\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5061011d806100206000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806317d7de7c14602d575b600080fd5b603360ab565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101560715780820151818401526020810190506058565b50505050905090810190601f168015609d5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60606040518060400160405280600781526020017f57617272696f720000000000000000000000000000000000000000000000000081525090509056fea265627a7a7231582052bafb79e714e720a7a7de191de6054147905eea16cb761c96d4e2869958206e64736f6c63430005100032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c806317d7de7c14602d575b600080fd5b603360ab565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101560715780820151818401526020810190506058565b50505050905090810190601f168015609d5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60606040518060400160405280600781526020017f57617272696f720000000000000000000000000000000000000000000000000081525090509056fea265627a7a7231582052bafb79e714e720a7a7de191de6054147905eea16cb761c96d4e2869958206e64736f6c63430005100032",
+  "sourceMap": "49:121:3:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;49:121:3;;;;;;;",
+  "deployedSourceMap": "49:121:3:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;49:121:3;;;;;;;;;;;;;;;;;;;81:87;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;81:87:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;120:13;145:16;;;;;;;;;;;;;;;;;;;81:87;:::o",
+  "source": "pragma solidity ^0.5.0;\n\nimport \"../Class.sol\";\n\ncontract Warrior is Class {\n    function getName() public view returns(string memory) {\n        return \"Warrior\";\n    }\n}",
+  "sourcePath": "/home/no/Documents/Projects/Ethventure/solidity/contracts/Classes/Warrior.sol",
+  "ast": {
+    "absolutePath": "/home/no/Documents/Projects/Ethventure/solidity/contracts/Classes/Warrior.sol",
+    "exportedSymbols": {
+      "Warrior": [
+        75
+      ]
+    },
+    "id": 76,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 63,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:3"
+      },
+      {
+        "absolutePath": "/home/no/Documents/Projects/Ethventure/solidity/contracts/Class.sol",
+        "file": "../Class.sol",
+        "id": 64,
+        "nodeType": "ImportDirective",
+        "scope": 76,
+        "sourceUnit": 48,
+        "src": "25:22:3",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 65,
+              "name": "Class",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 47,
+              "src": "69:5:3",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Class_$47",
+                "typeString": "contract Class"
+              }
+            },
+            "id": 66,
+            "nodeType": "InheritanceSpecifier",
+            "src": "69:5:3"
+          }
+        ],
+        "contractDependencies": [
+          47
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 75,
+        "linearizedBaseContracts": [
+          75,
+          47
+        ],
+        "name": "Warrior",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 73,
+              "nodeType": "Block",
+              "src": "135:33:3",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "hexValue": "57617272696f72",
+                    "id": 71,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "string",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "152:9:3",
+                    "subdenomination": null,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_stringliteral_825470cb7dd6b42e6dc592d606211ff8ba1aca3dfc64603420140f1c5303a1aa",
+                      "typeString": "literal_string \"Warrior\""
+                    },
+                    "value": "Warrior"
+                  },
+                  "functionReturnParameters": 70,
+                  "id": 72,
+                  "nodeType": "Return",
+                  "src": "145:16:3"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 74,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getName",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 67,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "97:2:3"
+            },
+            "returnParameters": {
+              "id": 70,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 69,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 74,
+                  "src": "120:13:3",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 68,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "120:6:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "119:15:3"
+            },
+            "scope": 75,
+            "src": "81:87:3",
+            "stateMutability": "view",
+            "superFunction": 46,
+            "visibility": "public"
+          }
+        ],
+        "scope": 76,
+        "src": "49:121:3"
+      }
+    ],
+    "src": "0:170:3"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/no/Documents/Projects/Ethventure/solidity/contracts/Classes/Warrior.sol",
+    "exportedSymbols": {
+      "Warrior": [
+        75
+      ]
+    },
+    "id": 76,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 63,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:3"
+      },
+      {
+        "absolutePath": "/home/no/Documents/Projects/Ethventure/solidity/contracts/Class.sol",
+        "file": "../Class.sol",
+        "id": 64,
+        "nodeType": "ImportDirective",
+        "scope": 76,
+        "sourceUnit": 48,
+        "src": "25:22:3",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 65,
+              "name": "Class",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 47,
+              "src": "69:5:3",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Class_$47",
+                "typeString": "contract Class"
+              }
+            },
+            "id": 66,
+            "nodeType": "InheritanceSpecifier",
+            "src": "69:5:3"
+          }
+        ],
+        "contractDependencies": [
+          47
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 75,
+        "linearizedBaseContracts": [
+          75,
+          47
+        ],
+        "name": "Warrior",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 73,
+              "nodeType": "Block",
+              "src": "135:33:3",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "hexValue": "57617272696f72",
+                    "id": 71,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "string",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "152:9:3",
+                    "subdenomination": null,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_stringliteral_825470cb7dd6b42e6dc592d606211ff8ba1aca3dfc64603420140f1c5303a1aa",
+                      "typeString": "literal_string \"Warrior\""
+                    },
+                    "value": "Warrior"
+                  },
+                  "functionReturnParameters": 70,
+                  "id": 72,
+                  "nodeType": "Return",
+                  "src": "145:16:3"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 74,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getName",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 67,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "97:2:3"
+            },
+            "returnParameters": {
+              "id": 70,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 69,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 74,
+                  "src": "120:13:3",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 68,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "120:6:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "119:15:3"
+            },
+            "scope": 75,
+            "src": "81:87:3",
+            "stateMutability": "view",
+            "superFunction": 46,
+            "visibility": "public"
+          }
+        ],
+        "scope": 76,
+        "src": "49:121:3"
+      }
+    ],
+    "src": "0:170:3"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xF20768A4FD574c9B00aE3CE9C8d1A61A6F70D899",
+      "transactionHash": "0xd75b34fd8cbfc13ae2fff9937443e917802e4e8d61a240c70123d0c295c68a2a"
+    }
+  },
+  "schemaVersion": "3.2.0",
+  "updatedAt": "2020-07-04T18:06:00.446Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
